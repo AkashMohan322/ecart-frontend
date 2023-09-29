@@ -1,0 +1,26 @@
+.banner{
+    background-image: url('https://img.freepik.com/free-vector/black-friday-super-sale-banner-with-shopping-bag-background_1361-3736.jpg?w=1060&t=st=1694149781~exp=1694150381~hmac=126bd155825695093feb3f5e8041c597f630dd1c671798a8609c8fdf5bbed6f6');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    width: 100%;
+}
+
+.card{
+    width: 300px;
+    height: 500px;
+    padding: 15px;
+}
+.card:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+    border: solid black;
+}
+.card-img-top{
+    width: 100%;
+    height: 200px;
+}
+.card-img-top:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+}
